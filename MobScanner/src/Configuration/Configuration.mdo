@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe92046a-1461-4003-bdfe-16907ed00d1c">
+  <name>MobileScanner</name>
+  <synonym>
+    <key>en</key>
+    <value>Mobile scanner</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3337f0c8-de47-486a-828b-7aa93d77be5d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4576146e-eb2c-413c-8c6e-3e2378dd2508"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2300a7a3-a9fb-445d-bfeb-6c7bb58268ba"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9ca88566-7bf4-4145-8ae0-13e2636753fe"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="54f46585-0fb3-4eb0-8a11-4f3cf6df4706"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="15a45058-0293-407a-bd85-5b6a0471aee5"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <vendor>1C (1C International)</vendor>
+  <version>1.0.0.5</version>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <copyright>
+    <key>en</key>
+    <value>Copyright ©2019 1C International. All rights reserved.</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>en</key>
+    <value>http://1c.com/</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="7cb575a1-db3e-4ab4-a8b8-c4e7906a3b2f">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.MainModule</commonModules>
+  <commonCommands>CommonCommand.RunScanning</commonCommands>
+  <commonCommands>CommonCommand.RunSetup</commonCommands>
+  <constants>Constant.TokenDropBox</constants>
+  <commonForms>CommonForm.formMain</commonForms>
+  <commonForms>CommonForm.formSetup</commonForms>
+  <catalogs>Catalog.Products</catalogs>
+  <catalogs>Catalog.Settings</catalogs>
+  <documents>Document.Inventory</documents>
+</mdclass:Configuration>

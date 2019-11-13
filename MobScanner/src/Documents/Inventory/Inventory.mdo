@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9413a9b-4195-4bdb-abe3-78748160a67e">
+  <producedTypes>
+    <objectType typeId="598f0af0-52b0-4670-af7e-34967e39aea2" valueTypeId="f315efad-5b5f-4b09-a392-e6b785d4c1ed"/>
+    <refType typeId="424f17ab-36ce-4b5d-a2e1-b6fb92ab8178" valueTypeId="8fa66eef-5c02-45ba-9f75-563325b3424b"/>
+    <selectionType typeId="1ea368b1-1eae-435b-9008-290f2d6f071b" valueTypeId="5474595d-393e-42f8-8f0f-d7460df48069"/>
+    <listType typeId="525a8c63-a745-4e9b-a9c6-41b6461ae3a3" valueTypeId="5e766353-2e92-4fe3-a9ab-4ba97e8a3a88"/>
+    <managerType typeId="0667daf2-dbde-47ca-83d7-74f72d9c56ea" valueTypeId="d99872dc-886f-4146-965b-16b2c439356a"/>
+  </producedTypes>
+  <name>Inventory</name>
+  <synonym>
+    <key>en</key>
+    <value>Inventory</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Inventory.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Inventory.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.Inventory.Form.ListForm</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="452731db-b8df-46b4-be94-443a9292d3b9">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae838343-2264-4a74-ac85-6ca9259955ee">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="7ff46901-9090-415f-91fd-db4a1a554772">
+    <producedTypes>
+      <objectType typeId="aa385858-2413-4a31-b785-5cc13d76b816" valueTypeId="49596f93-aa00-4505-ba1e-7adbe09aad4b"/>
+      <rowType typeId="55992645-abff-4326-9620-23401a5a4409" valueTypeId="02ad133c-54bc-4b7c-9bc4-61b121262bb0"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="a3645381-830c-45cf-b5cb-53e47eee7314">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6fbaa342-e8d6-4c64-bbd4-7d2ba0e42f0a">
+      <name>SKU</name>
+      <synonym>
+        <key>en</key>
+        <value>SKU</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ffbde447-fc97-481e-9102-5a1cecce9816">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

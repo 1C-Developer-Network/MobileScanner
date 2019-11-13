@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b2a958-05d7-48d8-8ddb-7329e59daf6a">
+  <producedTypes>
+    <managerType typeId="b9535061-7de5-43db-b1cb-d018e8f72c45" valueTypeId="ac449d6e-72a0-49bf-8130-17417cd44079"/>
+    <valueManagerType typeId="e41afc68-40e6-4d7b-acf1-4764703d304a" valueTypeId="8d1ead07-1055-4ebb-be94-113ca3143c4d"/>
+    <valueKeyType typeId="ee2dbec2-b6d0-4f72-a6ab-0304980e8a94" valueTypeId="d95faa1a-9c12-482c-8feb-1a75eabe2847"/>
+  </producedTypes>
+  <name>TokenDropBox</name>
+  <synonym>
+    <key>en</key>
+    <value>Token DropBox</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
