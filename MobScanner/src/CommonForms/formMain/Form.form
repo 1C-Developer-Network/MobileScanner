@@ -109,55 +109,6 @@
           </font>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>buttonSetup</name>
-          <id>225</id>
-          <title>
-            <key>ru</key>
-            <value>Открыть описание подключения</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>buttonSetupExtendedTooltip</name>
-            <id>226</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.Setup</commandName>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <groupHorizontalAlign>Center</groupHorizontalAlign>
-          <placementArea>UserCmds</placementArea>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.FormTextColor</color>
-          </textColor>
-          <borderColor xsi:type="core:ColorRef">
-            <color>Style.ButtonTextColor</color>
-          </borderColor>
-          <font xsi:type="core:FontRef">
-            <font>Style.NormalTextFont</font>
-            <bold>true</bold>
-            <italic>false</italic>
-            <underline>false</underline>
-            <strikeout>false</strikeout>
-          </font>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -280,39 +231,6 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <formCommands>
-    <name>Setup</name>
-    <title>
-      <key>ru</key>
-      <value>Настройки подключения</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Setup</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Настройки</value>
-    </toolTip>
-    <toolTip>
-      <key>en</key>
-      <value>Setup</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ReportSettings</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>Setup</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
   <formCommands>
     <name>NewInventory</name>
     <title>

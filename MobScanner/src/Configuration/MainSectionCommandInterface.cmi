@@ -5,13 +5,5 @@
       <command>CommonCommand.RunScanning</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonCommand.RunSetup</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Constant.TokenDropBox.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>

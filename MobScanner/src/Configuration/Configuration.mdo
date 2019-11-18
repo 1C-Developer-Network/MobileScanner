@@ -41,10 +41,8 @@
   </languages>
   <commonModules>CommonModule.MainModule</commonModules>
   <commonCommands>CommonCommand.RunScanning</commonCommands>
-  <commonCommands>CommonCommand.RunSetup</commonCommands>
   <constants>Constant.TokenDropBox</constants>
   <commonForms>CommonForm.formMain</commonForms>
-  <commonForms>CommonForm.formSetup</commonForms>
   <catalogs>Catalog.Products</catalogs>
   <catalogs>Catalog.Settings</catalogs>
   <documents>Document.Inventory</documents>

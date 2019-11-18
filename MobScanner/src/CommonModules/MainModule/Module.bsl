@@ -16,14 +16,14 @@ Function UseVoiceInputOfProductDescriptions() Export
 	
 EndFunction
 
-Function TokenDropBox() Export 
-	
-	Return Constants.TokenDropBox.Get();
-	
-EndFunction
-
 Function PlayTextMessages() Export 
 	
 	Return Catalogs.Settings.PlayTextMessages.Value;
+	
+EndFunction
+
+Function TokenDropBox() Export 
+	
+	Return Constants.TokenDropBox.Get();
 	
 EndFunction

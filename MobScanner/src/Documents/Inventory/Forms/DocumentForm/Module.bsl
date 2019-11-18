@@ -146,7 +146,7 @@ Procedure PostToDropBox(Command)
 	If structureResult.Status Then 
 		ReportStatus("File uploaded successfully");
 	Else 
-		ReportStatus("An error occurred while uploading");
+		ReportStatus(structureResult.Description);
 	EndIf;
 
 EndProcedure
@@ -182,6 +182,8 @@ Function PostToDropBoxAtServer()
 	newSpreadsheetDocument.Put(Section);
 	
 	newSpreadsheetDocument.Write(FullTempFileName, SpreadsheetDocumentFileType.PDF);
+	
+	
 	
 	tokenDropBox = MainModule.TokenDropBox();
 
