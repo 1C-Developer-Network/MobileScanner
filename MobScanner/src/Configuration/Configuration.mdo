@@ -14,13 +14,13 @@
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
-  <vendor>1C (1C International)</vendor>
+  <vendor>1С LLC</vendor>
   <version>1.0.0.5</version>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.English</defaultLanguage>
   <copyright>
     <key>en</key>
-    <value>Copyright ©2019 1C International. All rights reserved.</value>
+    <value>Copyright ©2019 1С LLC. All rights reserved.</value>
   </copyright>
   <vendorInformationAddress>
     <key>en</key>
